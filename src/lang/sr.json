@@ -3,5 +3,6 @@
   "update": "Ažuriraj članak",
   "backtoarticles": "Nazad na članke",
   "title": "Naslov",
-  "editing": "Uređuje se"
+  "editing": "Uređuje se",
+  "cantcreatearticles": "„Није могуће креирати чланак.“"
 }
