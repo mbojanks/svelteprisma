@@ -1,6 +1,7 @@
 
 <script lang="ts">
 	import type { PageData } from './$types'
+	import { i } from '@inlang/sdk-js'
 	export let data: PageData
 	$: ({ articles } = data)
 </script>
@@ -15,7 +16,7 @@
 					{article.content}
 				</p>
 				<form action="?/deleteArticle&id={article.id}" method="POST">
-					<button type="submit" class="outline secondary">Delete Article</button>
+					<button type="submit" class="outline secondary">{i("deletearticle")}</button>
 				</form>
 				<a href="/{article.id}" role="button" class="outline constrast" style="width: 100%;"
 					>Edit Article</a>
