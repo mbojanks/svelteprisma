@@ -5,5 +5,6 @@
   "title": "Naslov",
   "editing": "Uređuje se",
   "cantcreatearticles": "Nije moguće kreirati članak.",
-  "errordeletingarticle": "Nešto je pošlo naopako pri brisanju Vašeg članka"
+  "errordeletingarticle": "Nešto je pošlo naopako pri brisanju Vašeg članka",
+  "invalidrequest": "Neispravan zahtev"
 }
