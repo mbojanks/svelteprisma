@@ -12,5 +12,6 @@
   "deletearticle": "Delete Article",
   "editarticle": "Edit Article",
   "articles": "Articles",
-  "newarticle": "New Article"
+  "newarticle": "New Article",
+  "addarticle": "Add Article"
 }

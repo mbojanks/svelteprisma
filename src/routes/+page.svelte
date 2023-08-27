@@ -25,10 +25,10 @@
 	</div>
 	<form action="?/createArticle" method="POST">
 		<h3>{i("newarticle")}</h3>
-		<label for="title"> Title </label>
+		<label for="title"> {i("title")} </label>
 		<input type="text" id="title" name="title" />
-		<label for="content"> Content </label>
+		<label for="content"> {i("content")} </label>
 		<textarea id="content" name="content" rows={5} />
-		<button type="submit">Add Article</button>
+		<button type="submit">{i("addarticle")}</button>
 	</form>
 </div>
