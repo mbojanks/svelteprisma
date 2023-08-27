@@ -19,7 +19,7 @@
 					<button type="submit" class="outline secondary">{i("deletearticle")}</button>
 				</form>
 				<a href="/{article.id}" role="button" class="outline constrast" style="width: 100%;"
-					>Edit Article</a>
+					>{i("editarticle")}</a>
 			</article>
 		{/each}
 	</div>
