@@ -5,7 +5,6 @@
   "title": "Title",
   "editing": "Editing",
   "cantcreatearticles": "\"Could not create the article.\"",
-  "invalidrequset": "\"Invalid request\"",
   "invalidrequest": "\"Invalid request\"",
   "errordeletingarticle": "\"Something went wrong deleting your article\""
 }
