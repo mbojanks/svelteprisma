@@ -8,5 +8,6 @@
   "invalidrequest": "Invalid request",
   "errordeletingarticle": "Something went wrong deleting your article",
   "intro": "Let's build a basic CRUD application with SvelteKit & Prisma.",
-  "articlenotfound": "Article not found"
+  "articlenotfound": "Article not found",
+  "deletearticle": "Delete Article"
 }
