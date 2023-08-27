@@ -8,7 +8,7 @@
 
 <div class="grid">
 	<div>
-		<h2>Articles:</h2>
+		<h2>{i("articles")}:</h2>
 		{#each articles as article}
 			<article>
 				<header>{article.title}</header>
@@ -24,7 +24,7 @@
 		{/each}
 	</div>
 	<form action="?/createArticle" method="POST">
-		<h3>New Article</h3>
+		<h3>{i("newarticle")}</h3>
 		<label for="title"> Title </label>
 		<input type="text" id="title" name="title" />
 		<label for="content"> Content </label>

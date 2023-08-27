@@ -10,5 +10,7 @@
   "intro": "Let's build a basic CRUD application with SvelteKit & Prisma.",
   "articlenotfound": "Article not found",
   "deletearticle": "Delete Article",
-  "editarticle": "Edit Article"
+  "editarticle": "Edit Article",
+  "articles": "Articles",
+  "newarticle": "New Article"
 }
