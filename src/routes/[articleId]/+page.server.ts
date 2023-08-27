@@ -1,6 +1,7 @@
 import type { Actions, PageServerLoad } from "./$types"
 import { prisma } from "$lib/server/prisma"
 import { error, fail } from "@sveltejs/kit"
+import { i } from "@inlang/sdk-js"
 
 export const load: PageServerLoad = async ({ params }) => {
 	const getArticle = async () => {
@@ -10,7 +11,7 @@ export const load: PageServerLoad = async ({ params }) => {
 			},
 		})
 		if (!article) {
-			throw error(404, "Article not found")
+			throw error(404, i("articlenotfound"))
 		}
 		return article
 	}
