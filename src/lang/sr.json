@@ -4,5 +4,6 @@
   "backtoarticles": "Nazad na članke",
   "title": "Naslov",
   "editing": "Uređuje se",
-  "cantcreatearticles": "„Није могуће креирати чланак.“"
+  "cantcreatearticles": "„Није могуће креирати чланак.“",
+  "errordeletingarticle": "Nešto je pošlo naopako pri brisanju Vašeg članka"
 }
