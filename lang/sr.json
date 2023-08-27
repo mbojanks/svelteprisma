@@ -7,5 +7,6 @@
   "cantcreatearticles": "Nije moguće kreirati članak.",
   "errordeletingarticle": "Nešto je pošlo naopako pri brisanju Vašeg članka",
   "invalidrequest": "Neispravan zahtev",
-  "articlenotfound": "Članak nije pronađen"
+  "articlenotfound": "Članak nije pronađen",
+  "intro": "Napravimo osnovnu CRUD aplikaciju sa SvelteKit & Prisma."
 }
