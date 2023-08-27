@@ -4,7 +4,7 @@
   "backtoarticles": "Back to Articles",
   "title": "Title",
   "editing": "Editing",
-  "cantcreatearticles": "\"Could not create the article.\"",
-  "invalidrequest": "\"Invalid request\"",
-  "errordeletingarticle": "\"Something went wrong deleting your article\""
+  "cantcreatearticles": "Could not create the article.",
+  "invalidrequest": "Invalid request",
+  "errordeletingarticle": "Something went wrong deleting your article"
 }
