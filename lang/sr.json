@@ -9,5 +9,6 @@
   "invalidrequest": "Neispravan zahtev",
   "articlenotfound": "Članak nije pronađen",
   "intro": "Napravimo osnovnu CRUD aplikaciju sa SvelteKit & Prisma.",
-  "deletearticle": "Obriši članak"
+  "deletearticle": "Obriši članak",
+  "editarticle": "Uredi članak"
 }
