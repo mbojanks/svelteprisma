@@ -1,4 +1,5 @@
 <script lang="ts">
+    import { i } from '@inlang/sdk-js';
 	import '@picocss/pico'
 </script>
 
@@ -8,7 +9,7 @@
 			<a href="/"> SvelteKit & Prisma 🔥</a>
 		</h1>
 
-		<h2>Let's build a basic CRUD application with SvelteKit & Prisma.</h2>
+		<h2>{i("intro")}</h2>
 	</hgroup>
 	<slot />
 </div>
