@@ -25,7 +25,7 @@ export const actions: Actions = {
 			})
 		} catch (err) {
 			console.error(err)
-			return fail(500, { message: {i("cantcreatearticles")} })
+			return fail(500, { message: i("cantcreatearticles") })
 		}
 
 		return {
@@ -35,7 +35,7 @@ export const actions: Actions = {
 	deleteArticle: async ({ url }) => {
 		const id = url.searchParams.get("id")
 		if (!id) {
-			return fail(400, { message: {i("invalidrequest")} })
+			return fail(400, { message: i("invalidrequest") })
 		}
 
 		try {
@@ -47,7 +47,7 @@ export const actions: Actions = {
 		} catch (err) {
 			console.error(err)
 			return fail(500, {
-				message: {i("errordeletingarticle")},
+				message: i("errordeletingarticle"),
 			})
 		}
 

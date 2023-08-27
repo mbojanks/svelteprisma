@@ -6,5 +6,6 @@
   "editing": "Editing",
   "cantcreatearticles": "Could not create the article.",
   "invalidrequest": "Invalid request",
-  "errordeletingarticle": "Something went wrong deleting your article"
+  "errordeletingarticle": "Something went wrong deleting your article",
+  "intro": "Let's build a basic CRUD application with SvelteKit & Prisma."
 }

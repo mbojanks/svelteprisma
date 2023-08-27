@@ -13,7 +13,7 @@ export async function defineConfig(env) {
 	return {
 		referenceLanguage: 'en',
 		plugins: [
-			jsonPlugin({ pathPattern: 'src/lang/{language}.json' }),
+			jsonPlugin({ pathPattern: 'lang/{language}.json' }),
 			standardLintRules(),
 			sdkPlugin({
 				languageNegotiation: {
