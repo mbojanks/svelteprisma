@@ -6,5 +6,6 @@
   "editing": "Uređuje se",
   "cantcreatearticles": "Nije moguće kreirati članak.",
   "errordeletingarticle": "Nešto je pošlo naopako pri brisanju Vašeg članka",
-  "invalidrequest": "Neispravan zahtev"
+  "invalidrequest": "Neispravan zahtev",
+  "intro": "Napravimo osnovnu CRUD aplikaciju sa SvelteKit & Prisma."
 }
